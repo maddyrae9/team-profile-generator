@@ -23,3 +23,8 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
 Passed all tests on manager, intern, engineer, and employee
+
+
+Github: https://github.com/maddyrae9/team-profile-generator
+
+Live link: https://maddyrae9.github.io/team-profile-generator/
