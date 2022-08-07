@@ -1,8 +1,14 @@
-test("creates Employee Object", () => {
-    const employee = new Employee("Danielle", "danielle@gmail.com", "2")
-    expect(employee.name()).toBe("Danielle");
-    expect(employee.email()).toBe("danielle@gmail.com");
-    expect(employee.id()).toBe("2");
-});
+const Employee = require("../lib/Employee");
 
-test("exports Employee to use in role", () => {});
+test("create an employee object", () => {
+  const employee = new Employee(
+    "Dave",
+    "4",
+    "dave@gmail.com",
+    "engineer"
+  );
+  expect(employee.name).toEqual(expect.any(String));
+  expect(employee.email).toEqual(expect.any(String));
+  expect(employee.id).toEqual(expect.any(Number));
+  expect(employee.role).toEqual(expect.any(String));
+});
