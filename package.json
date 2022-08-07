@@ -1,0 +1,30 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "Generate a webpage of team information",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maddyrae9/team-profile-generator.git"
+    },
+    "keywords": [
+      "node.js",
+      "jest"
+    ],
+    "author": "Madison Mulligan",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/maddyrae9/team-profile-generator/issues"
+    },
+    "homepage": "https://github.com/maddyrae9/team-profile-generator#readme",
+    "devDependencies": {
+      "jest": "^28.1.1"
+    },
+    "dependencies": {
+      "inquirer": "^8.2.4",
+      "inquirer-confirm": "^2.0.7"
+    }
+  }
