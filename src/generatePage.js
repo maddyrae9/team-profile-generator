@@ -12,6 +12,7 @@ function generatePage(managerSet, engineerSet, internSet) {
   </div>
 </div>;
 }
+//generate engineer section
 let engineerSec = "";
   engineerSet.forEach((engineerEmployee) => {
     let engineerSecPart = `<div class="engineer-card">
@@ -27,6 +28,7 @@ let engineerSec = "";
 </div>`;
     engineerSec = engineerSec.concat(" ", engineerSecPart);
   });
+  //generate intern section
   let internSec = "";
   internSet.forEach((internEmployee) => {
     let internSecPart = `<div class="intern-card">
@@ -67,8 +69,10 @@ let engineerSec = "";
   </body>
 </html>
 `;
-  //"content" used in writefile function
+  
+//"content" used in writefile function
   // console.log(content);
   return content;
-// generatePage
+
+  // generatePage
 module.exports = generatePage;
