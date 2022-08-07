@@ -3,8 +3,8 @@ const Intern = require("../lib/Intern");
 test("create an intern object", () => {
   const intern = new Intern(
     "George",
-    "5",
     "george@gmail.com",
+    5,
     "Intern",
     "University of Florida"
   );

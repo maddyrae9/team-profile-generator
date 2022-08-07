@@ -4,7 +4,7 @@ test("create an engineer object", () => {
     const engineer = new Engineer(
         "Dave",
         "dave@gmail.com",
-        "4",
+        4,
         "engineer"
     );
     expect(engineer.name).toEqual(expect.any(String));
