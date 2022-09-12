@@ -1,5 +1,5 @@
 const fs = require("fs");
-const inquirer = require("inqurier");
+//const inquirer = require("inqurier");
 const generatePage = require("./src/generatePage");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
